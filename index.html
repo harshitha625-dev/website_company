@@ -1046,7 +1046,7 @@
         .stage-tab:hover:not(.active) {
             background: rgba(255, 255, 255, 0.015);
         }
-        
+
         .stage-tab:hover:not(.active) .t {
             color: rgba(255, 255, 255, 0.85);
         }
@@ -1219,7 +1219,8 @@
         .v-card-2 {
             background: linear-gradient(135deg, #0d1210 0%, #0e1a12 100%);
             z-index: 1;
-            margin-left: -50px; /* Horizontal overlap */
+            margin-left: -50px;
+            /* Horizontal overlap */
             transform: scale(0.95) translateX(15px);
             opacity: 0.65;
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
@@ -1795,20 +1796,33 @@
             border-color: rgba(124, 110, 242, 0.5) !important;
             box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4), 0 0 25px rgba(124, 110, 242, 0.25);
         }
+
         .impact-card:nth-child(2):hover {
             border-color: rgba(31, 182, 255, 0.5) !important;
             box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4), 0 0 25px rgba(31, 182, 255, 0.25);
         }
+
         .impact-card:nth-child(3):hover {
             border-color: rgba(34, 211, 161, 0.5) !important;
             box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4), 0 0 25px rgba(34, 211, 161, 0.25);
         }
 
         @keyframes morphCard {
-            0% { border-radius: 28px 18px 34px 20px; }
-            33% { border-radius: 20px 28px 22px 34px; }
-            66% { border-radius: 34px 20px 28px 22px; }
-            100% { border-radius: 22px 34px 20px 28px; }
+            0% {
+                border-radius: 28px 18px 34px 20px;
+            }
+
+            33% {
+                border-radius: 20px 28px 22px 34px;
+            }
+
+            66% {
+                border-radius: 34px 20px 28px 22px;
+            }
+
+            100% {
+                border-radius: 22px 34px 20px 28px;
+            }
         }
 
         /* Interactive Hover Glow Blob */
@@ -1829,9 +1843,11 @@
         .impact-card:nth-child(1) {
             --glow-color: radial-gradient(circle, rgba(124, 110, 242, 0.2) 0%, transparent 70%);
         }
+
         .impact-card:nth-child(2) {
             --glow-color: radial-gradient(circle, rgba(31, 182, 255, 0.2) 0%, transparent 70%);
         }
+
         .impact-card:nth-child(3) {
             --glow-color: radial-gradient(circle, rgba(34, 211, 161, 0.2) 0%, transparent 70%);
         }
@@ -1840,7 +1856,7 @@
             opacity: 1;
         }
 
-        .impact-card > :not(.impact-glow) {
+        .impact-card> :not(.impact-glow) {
             position: relative;
             z-index: 1;
         }
@@ -1884,7 +1900,8 @@
             text-align: center;
             background: radial-gradient(circle at 50% 0%, rgba(255, 255, 255, .08), transparent 60%);
             position: relative;
-            overflow: visible; /* To allow glow effects to shine outside */
+            overflow: visible;
+            /* To allow glow effects to shine outside */
             transition: border-color 0.4s ease, box-shadow 0.4s ease;
         }
 
@@ -1943,6 +1960,7 @@
             0% {
                 background-position: 0% 0%;
             }
+
             100% {
                 background-position: 200% 0%;
             }
@@ -2081,7 +2099,7 @@
             height: 18px;
             transition: transform 0.3s ease;
         }
-        
+
         .foot-bottom .socials a:hover svg {
             transform: rotate(8deg);
         }
@@ -2225,7 +2243,7 @@
                     <a href="#top">Home</a>
                     <a href="#product">Product</a>
                     <a href="#contact">Contact</a>
-                    <a href="about.html">About Us</a>
+                    <a href="about.html">Team</a>
                     <a href="#product" class="btn btn-primary cta-link">Try Veytrix.ai</a>
                 </div>
                 <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle menu">☰</button>
@@ -2262,10 +2280,11 @@
             <div class="wrap hero-inner">
                 <div class="hero-grid-layout">
                     <div class="hero-copy">
-                        <div class="eyebrow"><span class="dot"></span>AI PRODUCTS & WEBSITES</div>
+                        <div class="eyebrow"><span class="dot"></span>AI PRODUCTS & FREELANCE WEBSITE'S</div>
                         <h1>One Vision,<br><span class="accent">Endless Possibilities.</span></h1>
                         <p class="hero-sub">Veytrix is an AI innovation company focused on building intelligent
-                            applications, web platforms, and digital products that solve real-world problems. We combine
+                            applications, freelance website's, and digital products that solve real-world problems. We
+                            combine
                             cutting-edge artificial intelligence with modern software development to create scalable
                             solutions
                             that help businesses and people work smarter, faster, and more efficiently.</p>
@@ -2366,7 +2385,8 @@
                     <div class="reveal">
                         <div class="section-label">VISION</div>
                         <h2>We build products that make technology smarter and more accessible.</h2>
-                        <p class="lead">Veytrix creates intelligent software, AI-driven applications, and digital
+                        <p class="lead">Veytrix creates intelligent software, AI-driven applications,Freelance website's
+                            and digital
                             experiences that empower businesses to work smarter and grow faster. We focus on building
                             practical, scalable solutions that bridge the gap between innovation and everyday use.
                         </p>
@@ -2464,7 +2484,8 @@
                             professional editor would &mdash; understanding pacing, scene rhythm, and story structure to
                             deliver finished cuts in seconds.</p>
                         <div class="v-footer">
-                            <a href="https://veytrix.ai" target="_blank" class="btn btn-primary" style="font-size: 13px; padding: 10px 20px; border-radius: 8px;">Try Veytrix.ai</a>
+                            <a href="https://veytrix.ai" target="_blank" class="btn btn-primary"
+                                style="font-size: 13px; padding: 10px 20px; border-radius: 8px;">Try Veytrix.ai</a>
                             <div class="v-tags">
                                 <span class="v-tag">Computer Vision</span>
                                 <span class="v-tag">Auto-Cut AI</span>
@@ -2474,10 +2495,13 @@
                     </div>
 
                     <!-- Card 2: Coming Soon -->
-                    <div class="v-card v-card-2" style="justify-content: center; align-items: center; min-height: 340px;">
+                    <div class="v-card v-card-2"
+                        style="justify-content: center; align-items: center; min-height: 340px;">
                         <div class="v-glow"></div>
                         <span class="v-num" style="margin-bottom: 12px;">02 / PIPELINE</span>
-                        <div class="v-title" style="margin: 0; background: linear-gradient(135deg, #ffffff 40%, #22d3a1 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">Coming Soon</div>
+                        <div class="v-title"
+                            style="margin: 0; background: linear-gradient(135deg, #ffffff 40%, #22d3a1 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">
+                            Coming Soon</div>
                     </div>
 
                 </div>
@@ -2490,7 +2514,8 @@
         <section class="section-pad" id="impact">
             <div class="wrap">
                 <div class="section-label">IMPACT</div>
-                <h2 class="reveal" style="font-size:clamp(26px,3.4vw,38px);max-width:600px;">Building technology that creates lasting value.</h2>
+                <h2 class="reveal" style="font-size:clamp(26px,3.4vw,38px);max-width:600px;">Building technology that
+                    creates lasting value.</h2>
 
                 <div class="impact-grid">
                     <div class="impact-card">
@@ -2503,7 +2528,8 @@
                         </div>
                         <div class="impact-row">
                             <div class="k">Action</div>
-                            <p>We develop AI-powered applications and digital platforms that solve meaningful problems.</p>
+                            <p>We develop AI-powered applications and digital platforms that solve meaningful problems.
+                            </p>
                         </div>
                         <div class="impact-row">
                             <div class="k">Impact</div>
@@ -2591,16 +2617,33 @@
                 <span>© 2026 Veytrix. All rights reserved.</span>
                 <div class="socials">
                     <a href="https://linkedin.com" target="_blank" class="linkedin" aria-label="LinkedIn">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                            </path>
+                            <rect x="2" y="9" width="4" height="12"></rect>
+                            <circle cx="4" cy="4" r="2"></circle>
+                        </svg>
                     </a>
                     <a href="https://instagram.com" target="_blank" class="instagram" aria-label="Instagram">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                        </svg>
                     </a>
                     <a href="https://facebook.com" target="_blank" class="facebook" aria-label="Facebook">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                        </svg>
                     </a>
                     <a href="https://x.com" target="_blank" class="twitter" aria-label="X (formerly Twitter)">
-                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                        </svg>
                     </a>
                 </div>
             </div>
@@ -3073,10 +3116,10 @@
                             activeBorderColor = 'rgba(34, 211, 161, 0.4)';
                         }
 
-                        gsap.fromTo(card, 
-                            { 
-                                opacity: 0.35, 
-                                scale: 0.95, 
+                        gsap.fromTo(card,
+                            {
+                                opacity: 0.35,
+                                scale: 0.95,
                                 borderColor: 'rgba(255, 255, 255, 0.14)',
                                 borderRadius: '16px 16px 16px 16px',
                                 y: 20
