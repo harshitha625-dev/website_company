@@ -145,7 +145,7 @@ export default function Home() {
                 One Vision,<br /><span className="accent">Endless Possibilities.</span>
               </h1>
               <p className="hero-sub" style={{ maxWidth: '520px', color: 'var(--muted)', fontSize: '18px', lineHeight: '1.6' }}>
-                Veytrix is an AI innovation company focused on building intelligent applications, freelance website's, and digital products that solve real-world problems. We combine cutting-edge artificial intelligence with modern software development to create scalable solutions that help businesses and people work smarter, faster, and more efficiently.
+                MAVROS is an AI innovation company focused on building intelligent applications, freelance website's, and digital products that solve real-world problems. We combine cutting-edge artificial intelligence with modern software development to create scalable solutions that help businesses and people work smarter, faster, and more efficiently.
               </p>
               <div style={{ height: '1px', background: 'rgba(255,255,255,0.1)', marginTop: '45px', maxWidth: '520px' }}></div>
             </div>
@@ -167,7 +167,7 @@ export default function Home() {
               <div className="section-label">VISION</div>
               <h2>We build products that make technology smarter and more accessible.</h2>
               <p className="lead">
-                Veytrix creates intelligent software, AI-driven applications,Freelance website's and digital
+                MAVROS creates intelligent software, AI-driven applications,Freelance website's and digital
                 experiences that empower businesses to work smarter and grow faster. We focus on building
                 practical, scalable solutions that bridge the gap between innovation and everyday use.
               </p>
@@ -205,8 +205,8 @@ export default function Home() {
             <span className="c-corner br"></span>
             <div className="eyebrow" style={{ justifyContent: 'center' }}>LET'S BUILD SOMETHING</div>
             <h2>Got footage that needs a story?</h2>
-            <p>Tell us what you're shooting and how much of it there is. We'll show you what Veytrix does with it.</p>
-            <a href="mailto:hello@veytrix.ai?subject=Veytrix%20enquiry&body=Hi%20Veytrix%20team%2C%0A%0AI%27d%20like%20to%20discuss..." className="btn btn-primary">Email Veytrix</a>
+            <p>Tell us what you're shooting and how much of it there is. We'll show you what MAVROS does with it.</p>
+            <a href="mailto:hello@mavros.ai?subject=MAVROS%20enquiry&body=Hi%20MAVROS%20team%2C%0A%0AI%27d%20like%20to%20discuss..." className="btn btn-primary">Email MAVROS</a>
           </div>
         </div>
       </section>

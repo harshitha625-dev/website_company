@@ -61,7 +61,7 @@ export default function Process() {
   return (
     <section className="section-pad" id="process">
       <div className="wrap">
-        <div className="section-label">HOW VEYTRIX WORKS</div>
+        <div className="section-label">HOW MAVROS WORKS</div>
         <h2 className="reveal" style={{ fontSize: 'clamp(26px,3.4vw,38px)', maxWidth: '560px' }}>
           Four stages, turning ideas into intelligent products.
         </h2>

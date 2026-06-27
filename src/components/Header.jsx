@@ -40,13 +40,13 @@ export default function Header() {
       <header id="site-header" ref={headerRef}>
           <div className="wrap">
               <nav>
-                  <Link to="/#top" className="logo"><span className="mark"></span>VEYTRIX</Link>
+                  <Link to="/#top" className="logo"><span className="mark"></span>MAVROS</Link>
                   <div className="nav-links" id="nav-links">
                       <Link to="/#top">Home</Link>
                       <Link to="/#product">Product</Link>
                       <Link to="/#contact">Contact</Link>
                       <Link to="/about">Team</Link>
-                      <Link to="/#product" className="btn btn-primary cta-link">Try Veytrix.ai</Link>
+                      <Link to="/#product" className="btn btn-primary cta-link">Try MAVROS.ai</Link>
                   </div>
                   <button className="mobile-toggle" id="mobile-toggle" aria-label="Toggle menu" onClick={toggleMobileMenu}>☰</button>
               </nav>

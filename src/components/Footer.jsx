@@ -6,7 +6,7 @@ export default function Footer() {
         <div className="wrap">
             <div className="foot-grid">
                 <div>
-                    <Link to="/#top" className="logo"><span className="mark"></span>VEYTRIX</Link>
+                    <Link to="/#top" className="logo"><span className="mark"></span>MAVROS</Link>
                     <p className="muted" style={{maxWidth: '280px', fontSize: '14px'}}>AI video intelligence — understanding
                         footage so you don't have to scrub through it.</p>
                 </div>
@@ -19,12 +19,12 @@ export default function Footer() {
                 </div>
                 <div className="col">
                     <div className="col-h">Contact</div>
-                    <a href="mailto:hello@veytrix.ai">hello@veytrix.ai</a>
+                    <a href="mailto:hello@mavros.ai">hello@mavros.ai</a>
                     <p>Remote-first team</p>
                 </div>
             </div>
             <div className="foot-bottom">
-                <span>© 2026 Veytrix. All rights reserved.</span>
+                <span>© 2026 MAVROS. All rights reserved.</span>
                 <div className="socials">
                     <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="linkedin" aria-label="LinkedIn">
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"
@@ -35,7 +35,7 @@ export default function Footer() {
                             <circle cx="4" cy="4" r="2"></circle>
                         </svg>
                     </a>
-                    <a href="https://instagram.com" target="_blank" rel="noreferrer" className="instagram" aria-label="Instagram">
+                    <a href="https://www.instagram.com/mavros_ai/" target="_blank" rel="noreferrer" className="instagram" aria-label="Instagram">
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"
                             strokeLinecap="round" strokeLinejoin="round">
                             <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>

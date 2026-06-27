@@ -32,7 +32,7 @@ function App() {
           element.scrollIntoView({ behavior: 'smooth' });
         }, 100);
       }
-    } else if (location.pathname === '/') {
+    } else {
       window.scrollTo({ top: 0, behavior: 'smooth' });
     }
   }, [location.pathname, location.hash]);
